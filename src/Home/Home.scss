@@ -24,13 +24,16 @@
   color: white;
   position: relative;
   margin-bottom: 5rem;
+  @include breakpoint(mobile) {
+    padding-left: 0;
+  }
   .inner-list {
     padding-left: 7rem;
     list-style: none;
     position: relative;
     margin-bottom: 2rem;
     @include breakpoint(mobile) {
-      padding-left: 4rem;
+      padding-left: 0rem;
     }
     &:first-of-type{
       &::before {
@@ -45,8 +48,7 @@
       height: 100%;
       top: -6.5rem;
       @include breakpoint(mobile) {
-        height: 75%;
-        top: -7rem;
+        content: unset;
       }
     }
     &::after {
@@ -54,6 +56,9 @@
       position: absolute;
       left: 0;
       top: 13px;
+      @include breakpoint(mobile) {
+        content: unset;
+      }
     }
     .title-education {
       font-size: 30px;
