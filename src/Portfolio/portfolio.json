@@ -1,0 +1,44 @@
+[
+  {
+    "name": "B2B MyEnterprise",
+    "url" : "https://myenterprise.telkomsel.com/",
+    "image" : "https://myenterprise.telkomsel.com/images/new-telkomsel/new_myenterprise_white.png",
+    "detail" : "The myenterprise platform is a web-based platform that provides various business products owned by the Telkomsel myBusiness business unit to provide consulting services for enterprise segment customers easily and quickly, anywhere and anytime.",
+    "tech" : "Laravel, RESTfull API, Javascript, Webpack, jQuery, HTML, SCSS, CSS"
+  },
+  {
+    "name": "B2B MSDS & B2B Dashboard",
+    "url" : "-",
+    "image" : "https://myenterprise.telkomsel.com/images/new-telkomsel/new_myenterprise_white.png",
+    "detail" : "The myenterprise platform is a web-based platform that provides various business products owned by the Telkomsel myBusiness business unit to provide consulting services for enterprise segment customers easily and quickly, anywhere and anytime.",
+    "tech" : "Angular CLI, Bootstrap, Google Chart"
+  },
+  {
+    "name": "MSIGHT",
+    "url" : "-",
+    "image" : "https://retaintechnologies.com/wp-content/uploads/2020/04/Project-Management-Mantenimiento-1.jpg",
+    "detail" : "Data visualization with custom view from telco",
+    "tech" : "Angular CLI, Material UI, GraphQL, HighChart"
+  },
+  {
+    "name": "Gomodo",
+    "url" : "https://mygomodo.com/",
+    "image" : "https://gomodo.id/img/gomodo.png",
+    "detail" : "Gomodo is a one-stop digital empowerment platform for micro, small and medium enterprises (MSME) in the services and tourism sector. We are a software-as-a-service technology company with offices in Singapore, Jakarta, Yogyakarta and Bali.",
+    "tech" : "Laravel, React, Xendit, Midtrans, jQuery, Javascript, Gulp"
+  },
+  {
+    "name": "Apps for trading",
+    "url" : "-",
+    "image" : "https://mamikos.com/assets/logo/svg/logo_mamikos_green.svg",
+    "detail" : "-",
+    "tech" : "React Native, FullRest API"
+  },
+  {
+    "name": "Career Center Amikom V.1",
+    "url" : "https://career.amikom.ac.id/",
+    "image" : "https://career.amikom.ac.id/images/universitas-amikom-yogyakarta1584094858.png",
+    "detail" : "Career center for company who open opportunity for Amikom Student & student can apply as employee on this website",
+    "tech" : "CI, Bootstrap, HTML, RESTfull API, jQuery, Javascript"
+  }
+]

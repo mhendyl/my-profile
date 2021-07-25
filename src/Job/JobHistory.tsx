@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import { Container } from 'react-bootstrap';
 import { Row, Col } from 'react-bootstrap';
 import './JobHistory.scss'
@@ -6,9 +6,11 @@ import './JobHistory.scss'
 const jobData = require('./job-history.json');
 
 export default function JobHistory() {
+  const jobRef = useRef(null);
   return (
-    <div className="outer-job">
+    <div className="outer-job" id="job">
       <Container>
+        <h3>Job History</h3>
         <ul className="list-job">
           {jobData.map((element: any, index: number) => {
             return (

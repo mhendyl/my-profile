@@ -2,6 +2,12 @@
 .outer-job {
   background-color: #fff;
   padding: 5rem 0;
+  h3 {
+    font-weight: bold;
+    padding-left: 3rem;
+    margin-bottom: 5rem;
+    font-size: 3rem;
+  }
 }
 
 .list-job {
@@ -13,6 +19,9 @@
     list-style: none;
     position: relative;
     margin-bottom: 2rem;
+    @include breakpoint(mobile) {
+      padding-left: 4rem;
+    }
     .img-company {
       @include breakpoint(mobile) {
         max-width: 240px;

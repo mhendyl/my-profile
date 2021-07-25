@@ -21,6 +21,9 @@
     list-style: none;
     position: relative;
     margin-bottom: 2rem;
+    @include breakpoint(mobile) {
+      padding-left: 4rem;
+    }
     &:first-of-type{
       &::before {
         content: unset;
@@ -34,8 +37,8 @@
       height: 100%;
       top: -6.5rem;
       @include breakpoint(mobile) {
-        height: 95%;
-        top: -8rem;
+        height: 89%;
+        top: -6rem;
       }
     }
     &::after {

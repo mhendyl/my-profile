@@ -1,0 +1,40 @@
+@import '../scss/mixins';
+
+.outer-portfolio {
+  background-color: #3b3b3c;
+  padding: 5rem 0;
+  h3 {
+    font-size: 40px;
+    margin-bottom: 2rem;
+    padding-left: 3rem;
+    @include breakpoint(mobile) {
+      font-size: 20px;
+    }
+  }
+}
+
+.list-portfolio {
+  color: white;
+  position: relative;
+  margin-bottom: 5rem;
+  .inner-list {
+    padding-left: 1rem;
+    list-style: none;
+    position: relative;
+    margin-bottom: 2rem;
+    .img-company {
+      @include breakpoint(mobile) {
+        max-width: 310px;
+      }
+    }
+    .title-job {
+      font-size: 30px;
+      @include breakpoint(mobile) {
+        font-size: 20px;
+      }
+    }
+    .major {
+      font-size: 14px;
+    }
+  }
+}

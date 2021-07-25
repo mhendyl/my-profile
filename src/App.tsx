@@ -2,6 +2,7 @@ import './App.css';
 import Header from './Header/Header';
 import Home from './Home/Home';
 import JobHistory from './Job/JobHistory';
+import Portfolio from './Portfolio/Portfolio';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Header/>
       <Home />
       <JobHistory/>
+      <Portfolio/>
     </div>
     // <div className="App">
     //   <header className="App-header">

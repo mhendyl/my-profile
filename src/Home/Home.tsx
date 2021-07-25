@@ -18,7 +18,7 @@ const theEducation = dataEducation.map((el: any, index: number) => {
 
 export default function Home() {
   return (
-    <div className="outer-home">
+    <div className="outer-home" id="home">
       <Container>
         <Row>
           <Col md={4} className="text-center">
@@ -29,7 +29,7 @@ export default function Home() {
             <p className="about-me">Hi everyone, introduce my self Hendy, Frontend Developer from D.I. Yogyakarta, Indonesia.
               I already 3 years in Frontend Developer. I was graduated from University Amikom Yogyakarta in 2018 with GPA 3.49. I already
               create project such as B2B and B2C with payment gateway. Click button bellow to see what i already create!</p>
-            <Button variant="outline-light">Portfolio</Button>
+            <Button href="#portfolio" variant="outline-light">Portfolio</Button>
           </Col>
           <Col md={12} className="mt-5">
             <h3 className="text-white">Education History</h3>
