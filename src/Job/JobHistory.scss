@@ -20,7 +20,7 @@
     position: relative;
     margin-bottom: 2rem;
     @include breakpoint(mobile) {
-      padding-left: 4rem;
+      padding-left: 2.5rem;
     }
     .img-company {
       @include breakpoint(mobile) {
