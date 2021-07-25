@@ -9,6 +9,7 @@
     padding-left: 3rem;
     @include breakpoint(mobile) {
       font-size: 20px;
+      padding-left: 1rem;
     }
   }
 }
@@ -17,6 +18,9 @@
   color: white;
   position: relative;
   margin-bottom: 5rem;
+  @include breakpoint(mobile) {
+    padding-left: 0;
+  }
   .inner-list {
     padding-left: 1rem;
     list-style: none;
