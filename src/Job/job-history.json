@@ -1,0 +1,31 @@
+[
+  {
+    "company": "SALT Indonesia",
+    "location" : "Jakarta, Indonesia",
+    "position" : "Frontend Developer",
+    "image" : "https://lh3.googleusercontent.com/proxy/uNUPdOqDgw5bpGKpM9WUpq64PAZchrvxR8iP6tUnFUHvFP66_wtXBpBQRzF2XUEavJv9XofHzIRBiPeTwmwZKahaYdAr_g7EzaM_bObk",
+    "start" : "December 2019",
+    "graduated" : "recently"
+  },{
+    "company": "Gomodo",
+    "location" : "Yogyakarta, Indonesia",
+    "position" : "Frontend Developer",
+    "image" : "https://gomodo.id/img/gomodo.png",
+    "start" : "December 2018",
+    "graduated" : "November 2019"
+  },{
+    "company": "Mamikos",
+    "location" : "Yogyakarta, Indonesia",
+    "position" : "Frontend Developer",
+    "image" : "https://mamikos.com/assets/logo/svg/logo_mamikos_green.svg",
+    "start" : "October 2018",
+    "graduated" : "October 2018"
+  },{
+    "company": "Teras Code Digital",
+    "location" : "Yogyakarta, Indonesia",
+    "image" : "https://scontent-sin6-3.xx.fbcdn.net/v/t1.6435-9/38783147_200764867455478_387879613193256960_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=973b4a&_nc_ohc=fgLBoOs3kSAAX8UtL32&_nc_ht=scontent-sin6-3.xx&oh=e24e916b9b308d815b88ca0d4282889c&oe=61247BB5",
+    "position" : "Frontend Developer",
+    "start" : "June 2018",
+    "graduated" : "January 2020"
+  }
+]

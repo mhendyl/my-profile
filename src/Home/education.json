@@ -1,0 +1,17 @@
+[
+  {
+    "type": "University",
+    "degree": "bachelor",
+    "name" : "University Amikom Yogyakarta",
+    "major": "Informatics",
+    "start" : 2015,
+    "graduate" : 2018
+  }, {
+    "type": "High School",
+    "degree": "-",
+    "name" : "Muhammadiyah 3 Vocational High School, Yogyakarta",
+    "major": "Computer Networking",
+    "start" : 2012,
+    "graduate" : 2015
+  }
+]

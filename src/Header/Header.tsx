@@ -6,7 +6,7 @@ import HeaderLogo from './image/HeaderLogo.png';
 export default function Header() {
   return (
     <div>
-      <Navbar bg="dark" variant="dark" >
+      <Navbar bg="dark" variant="dark" fixed="top">
         <Container>
           <Navbar.Brand href="#home">
             <img
@@ -19,7 +19,7 @@ export default function Header() {
           </Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="#home" className="text-white">Home</Nav.Link>
-            <Nav.Link href="#features" className="text-white">About Me</Nav.Link>
+            <Nav.Link href="#features" className="text-white">Job History</Nav.Link>
             <Nav.Link href="#pricing" className="text-white">My Project</Nav.Link>
           </Nav>
         </Container>

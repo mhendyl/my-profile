@@ -1,19 +1,11 @@
 @import '../scss/mixins';
-
-.outer-home {
-  height: 100%;
-  padding-top: 5rem;
-  background-color: #3b3b3c;
-  .about-me {
-    max-width: 70%;
-    @include breakpoint(mobile) {
-      max-width: 100%;
-    }
-  }
+.outer-job {
+  background-color: #fff;
+  padding: 5rem 0;
 }
 
-.list-education {
-  color: white;
+.list-job {
+  color: #080d55;
   position: relative;
   margin-bottom: 5rem;
   .inner-list {
@@ -21,6 +13,11 @@
     list-style: none;
     position: relative;
     margin-bottom: 2rem;
+    .img-company {
+      @include breakpoint(mobile) {
+        max-width: 240px;
+      }
+    }
     &:first-of-type{
       &::before {
         content: unset;
@@ -32,10 +29,10 @@
       position: absolute;
       left: 9px;
       height: 100%;
-      top: -6.5rem;
+      top: -8rem;
       @include breakpoint(mobile) {
         height: 95%;
-        top: -8rem;
+        top: -10rem;
       }
     }
     &::after {
@@ -44,7 +41,7 @@
       left: 0;
       top: 13px;
     }
-    .title-education {
+    .title-job {
       font-size: 30px;
       @include breakpoint(mobile) {
         font-size: 20px;

@@ -1,8 +1,7 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Header from './Header/Header';
 import Home from './Home/Home';
+import JobHistory from './Job/JobHistory';
 
 
 function App() {
@@ -10,6 +9,7 @@ function App() {
     <div>
       <Header/>
       <Home />
+      <JobHistory/>
     </div>
     // <div className="App">
     //   <header className="App-header">
