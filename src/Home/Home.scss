@@ -45,8 +45,8 @@
       height: 100%;
       top: -6.5rem;
       @include breakpoint(mobile) {
-        height: 89%;
-        top: -6rem;
+        height: 75%;
+        top: -7rem;
       }
     }
     &::after {
