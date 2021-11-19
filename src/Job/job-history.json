@@ -1,11 +1,19 @@
 [
   {
+    "company": "Photon Interactive Indonesia",
+    "location" : "Jakarta, Indonesia",
+    "position" : "Software Engineer",
+    "image" : "https://images.glints.com/unsafe/1920x0/glints-dashboard.s3.amazonaws.com/company-banner-pic/6195ddf0fa7a8f3993effb90e5efb22d.jpg",
+    "start" : "September 2020",
+    "graduated" : "-"
+  },
+  {
     "company": "SALT Indonesia",
     "location" : "Jakarta, Indonesia",
     "position" : "Frontend Developer",
     "image" : "https://cdn.techinasia.com/data/images/kzvTLZUzcooXPkhqNIzSxMsoOGL6km00hmAA9Xa6.png",
     "start" : "December 2019",
-    "graduated" : "recently"
+    "graduated" : "September 2020"
   },{
     "company": "Gomodo",
     "location" : "Yogyakarta, Indonesia",

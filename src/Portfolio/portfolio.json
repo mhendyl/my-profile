@@ -1,5 +1,19 @@
 [
   {
+    "name": "Wyn Las Vegas (Mobile apps)",
+    "url" : "-",
+    "image" : "https://pix10.agoda.net/hotelImages/50345/-1/673b2a5f817d65090d3b33d635e61ca8.jpg?ca=12&ce=1&s=1024x768",
+    "detail" : "Hotel management system ",
+    "tech" : "React Native, Redux Saga"
+  },
+  {
+    "name": "Jail management system",
+    "url" : "-",
+    "image" : "https://retaintechnologies.com/wp-content/uploads/2020/04/Project-Management-Mantenimiento-1.jpg",
+    "detail" : "Jail management system for private prison in USA",
+    "tech" : "React JS, Redux Saga"
+  },
+  {
     "name": "B2B MyEnterprise",
     "url" : "https://myenterprise.telkomsel.com/",
     "image" : "https://myenterprise.telkomsel.com/images/new-telkomsel/new_myenterprise_white.png",
